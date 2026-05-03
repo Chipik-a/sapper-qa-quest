@@ -6,17 +6,22 @@
 
 **Preconditions:**
 
-- User page is opened: https://tymfear.github.io/sapper-qa-quest/ 
-- Admin page is opened: https://tymfear.github.io/sapper-qa-quest/kitty/admin
+- The application is opened: https://tymfear.github.io/sapper-qa-quest/
+- The user is on the Kitty page (User page)
+- The toggle state is ON
+- The image is visible
 
 **Steps:**
-1. Check the current toggle state on the User page
-2. If the toggle is OFF, switch it ON
-3. Turn the toggle OFF
+1. Ensure the toggle is 'ON' on the User page 
+2. Turn the toggle OFF 
+3. Verify the image is hidden on the User page 
+4. Click "Show Admin Area" link 
+5. Verify the toggle is OFF on the Admin page
 
 **Expected Result:**
-- The image is not displayed on the User page 
-- The toggle on the Admin page  is switched to OFF
+- The toggle state is OFF
+- The image is not displayed on the User page
+- The Admin page shows the toggle in OFF state
 
 ----------
 ## TC_KITTY_012
@@ -25,17 +30,22 @@
 
 **Preconditions:**
 
-- The page is opened: https://tymfear.github.io/sapper-qa-quest/ 
-- Admin page is opened: https://tymfear.github.io/sapper-qa-quest/kitty/admin
+- The page is opened: https://tymfear.github.io/sapper-qa-quest/
+- The user navigates to the Kitty page (User page)
+- The toggle state is set to OFF
 
 **Steps:**
-1. Check the current toggle state on the User page
-2. If the toggle is ON, switch it OFF
+1. Navigate to the Kitty page (User page)
+2. Ensure the toggle is OFF
 3. Turn the toggle ON
+4. Verify the image is displayed on the User page
+5. Click "Show Admin Area" link
+6. Verify the toggle is ON the Admin page
 
 **Expected Result:**
-- The image is displayed on the User page 
-- The toggle on the Admin page is switched to ON
+- The toggle state is ON
+- The image is visible on the User page
+- The Admin page displays the toggle in ON state
 
 --------
 
@@ -45,17 +55,19 @@
 
 **Preconditions:**
 
-- User page is opened: https://tymfear.github.io/sapper-qa-quest/ 
-- Admin page is opened: https://tymfear.github.io/sapper-qa-quest/kitty/admin
+- The application is opened: https://tymfear.github.io/sapper-qa-quest/kitty/admin
+- The toggle state is ON
 
 **Steps:**
-1. Check the current toggle state on the Admin page
-2. If the toggle is OFF, switch it to ON
-3. Turn the toggle OFF
+1. Ensure the toggle is 'ON' on the Admin page
+2. Turn the toggle OFF
+3. Click "Show Member Area" link
+4. Verify the toggle is OFF on the User page
 
 **Expected Result:**
-- The image is not displayed on the Admin page 
-- The toggle on the User page is switched to OFF
+- The toggle state is OFF
+- The User page shows the toggle in OFF state
+- The image is not displayed on the User page
 
 --------
 
@@ -65,17 +77,19 @@
 
 **Preconditions:**
 
-- User page is opened: https://tymfear.github.io/sapper-qa-quest/
-- Admin page is opened: https://tymfear.github.io/sapper-qa-quest/kitty/admin
+- The page is opened: https://tymfear.github.io/sapper-qa-quest/kitty/admin
+- The toggle state is set to OFF
 
 **Steps:**
-1. Turn the toggle ON on the Admin page
-2. If the toggle is ON, switch it OFF 
-3. Turn the toggle ON
+1. Ensure the toggle is OFF on the Admin Page 
+2. Turn the toggle ON 
+3. Click "Show Member Area" link 
+4. Verify the toggle is ON the User page
 
 **Expected Result:**
-- The image is displayed on the Admin page 
-- The toggle on the User page is switched to ON
+- The toggle state is ON
+- The User page displays the toggle in ON state
+- The image is visible on the User page
 
 --------------------------------------------------------------------------------------------
 
@@ -84,7 +98,8 @@
 **Title:** Verify that clicking "Show me a Kitty" navigates the user to the kitty page\
 
 **Preconditions**\
-- User opens https://tymfear.github.io/sapper-qa-quest/\
+- User opens https://tymfear.github.io/sapper-qa-quest/
+- клик на кнопку
 - Page loads successfully\
 
 **Steps**\
